@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-antd实现的一些UI组件
 
-## Available Scripts
+## 项目结构
+```javascript
++-- config/                                 ---npm run eject 后的配置文件目录
++-- node_modules/                           ---npm下载文件目录
++-- public/
+|   --- index.html                          ---首页入口html文件
++-- script/
+|   --- build.js                           ---项目打包配置  
+|   --- start.js                           ---项目启动配置
+|   --- test.js                            ---项目测试配置
+|
++-- src/                                    ---核心代码目录  
+|   +-- config                              ---公用配置
+|   |    +-- menu                           ---菜单 
+|   +-- img                                 ---图片
+|   +-- pages                               ---页面
+|   |    +--charts                          ---图表
+|   |    +--components                      ---整体架构组件
+|   |       +--footer                       ---底部组件
+|   |       +--headerCustom                 ---头部文件
+|   |       +--siderCustom                  ---侧边栏组件
+|   |    +-- form                           ---表单组件
+|   |    +-- home                           ---首页组件
+|   |    +-- login                          ---登录组件
+|   |    +-- table                          ---tab表单
+|   |    +-- ui                             ---UI组件
+|   |    |  
+|   +-- store                               ---redux状态管理 
+|   --- style                               ---组件公共样式文件
+--- package.json
 
-In the project directory, you can run:
+```
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 项目地址
+  https://github.com/Lan0203/react-antd-admin
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## 下载
+  git conle https://github.com/Lan0203/react-antd-admin
 
-### `npm test`
+## 安装配置
+  cd react-antd-damin  
+  yarn || npm install
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 启动
+  yarn start    || npm start  
