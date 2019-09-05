@@ -1,0 +1,37 @@
+.gutter-example .ant-row >div{
+    background: transparent;
+    border: 0;
+}
+.gutter-box {
+    padding: 5px 0;
+
+}
+.clear{
+    display: block;
+    overflow: hidden;
+}
+.y-center{
+    display: flex;
+    align-items: center;
+}
+.pull-left {
+    float: left;
+}
+.mr-m{
+    margin-right: 1rem !important;
+}
+.text-danger{
+    color:#f44455 !important;
+}
+.text-2x{
+    font-size: 2rem
+}
+.text-muted{
+    opacity: .6;
+}
+.text-info{
+    color: #6887ff !important
+}
+.text-success{
+    color: #6cc788 !important
+}
